@@ -1,0 +1,311 @@
+573a574,883
+> : 1563209152:0;rm zshhistory1.txt
+> : 1563209163:0;mv zshhistory2.txt zshhistory1.txt
+> : 1563209163:0;ls
+> : 1563257700:0;cp ../zshhistory1.txt zshhistory2.txt
+> : 1563259924:0;sudo /sbin/modprobe tun\
+> 
+> : 1563259938:0;sudo apt install openconnect
+> : 1563259981:0;sudo openconnect us.cisadd2.com
+> : 1563266606:0;sudo apt-get install vpnc vpnc-scripts\
+> 
+> : 1563266627:0;sudo openconnect us.cisadd2.com --script=/etc/vpnc/vpnc-script\
+> \
+> 
+> : 1563268318:0;sudo apt install gnome-tweak-tool
+> : 1563268477:0;sudo apt install gtk3
+> : 1563268482:0;sudo apt install gtk3.0
+> : 1563269140:0;sudo apt-get install arc-theme\
+> 
+> : 1563269377:0;sudo add-apt-repository ppa:noobslab/macbuntu\
+> 
+> : 1563269441:0;sudo apt-get install macbuntu-os-icons-v9\
+> 
+> : 1563269451:0;sudo apt update
+> : 1563269494:0;sudo apt-get install macbuntu-os-icons-v9\
+> 
+> : 1563269502:0;sudo add-apt-repository ppa:noobslab/macbuntu\
+> 
+> : 1563269711:0;sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf\
+> 
+> : 1563269845:0;cd ..
+> : 1563269846:0;ls
+> : 1563269859:0;git clone https://github.com/vinceliuice/Mojave-gtk-theme
+> : 1563270198:0;ls
+> : 1563270205:0;git clone https://github.com/vinceliuice/Mojave-gtk-theme
+> : 1563273457:0;psql
+> : 1563273516:0;sudo -u postgres psql
+> : 1563274136:0;git clone https://github.com/vinceliuice/Mojave-gtk-theme
+> : 1563274478:0;mkdir 3rd_day
+> : 1563274511:0;virtualenv -p /usr/bin/python3.6
+> : 1563274530:0;virtualenv -p /usr/bin/python3.6 myenv
+> : 1563274550:0;pip3 install django
+> : 1563274563:0;pip3 install django==2.2.2
+> : 1563274658:0;cd ..
+> : 1563274673:0;cd Mojave-gtk-theme-master
+> : 1563274673:0;ls
+> : 1563274681:0;./install.sh
+> : 1563274796:0;django-admin startproject django_orm
+> : 1563274804:0;ls
+> : 1563274812:0;rm -rf django_orm
+> : 1563274818:0;cd ../3rd_day
+> : 1563274821:0;django-admin startproject django_orm
+> : 1563274832:0;cd django_orm
+> : 1563274833:0;ls
+> : 1563275023:0;django-admin startapp
+> : 1563275036:0;django-admin startapp sample_app
+> : 1563275086:0;ls
+> : 1563275476:0;python manage.py
+> : 1563275481:0;python manage.py runserver
+> : 1563276002:0;cd sample_app
+> : 1563276018:0;vim models.py
+> : 1563276098:0;cd ..
+> : 1563276159:0;vim django_orm/settings.py
+> : 1563276262:0;python manage.py makemigrations
+> : 1563276296:0;python manage.py db.shell
+> : 1563276313:0;pip3 install psycopg2
+> : 1563276443:0;python manage.py dbshell
+> : 1563276454:0;python3 manage.py dbshell
+> : 1563276456:0;pip3 install psycopg2
+> : 1563276475:0;python manage.py dbshell
+> : 1563276503:0;where pip3
+> : 1563276507:0;where python
+> : 1563276533:0;pip3 install psycopg2
+> : 1563276543:0;pip install psycopg2
+> : 1563276562:0;python -m pip install psycopg2
+> : 1563276569:0;python manage.py dbshell
+> : 1563277503:0;python manage.py makemigrations
+> : 1563277553:0;vim django_orm/settings.py
+> : 1563277609:0;python manage.py dbshell
+> : 1563277613:0;python manage.py makemigrations
+> : 1563278064:0;python manage.py migrate
+> : 1563278154:0;psql 
+> : 1563278177:0;sudo -u postgres paql 
+> : 1563278183:0;sudo -u postgres psql 
+> : 1563278206:0;sudp psql
+> : 1563278209:0;sudo psql
+> : 1563279230:0;python manage.py makemigrations
+> : 1563279238:0;python manage.py migrate
+> : 1563279278:0;python manage.py showmigrations
+> : 1563279301:0;python manage.py sqlmigrate
+> : 1563279309:0;python manage.py sqlmigrate Emplpyee
+> : 1563279344:0;python manage.py sqlmigrate sample_app
+> : 1563279386:0;python manage.py sqlmigrate sample_app 0002_auto_20190716_1213
+> : 1563279408:0;python manage.py showmigrations
+> : 1563279464:0;python manage.py sqlmigrate sample_app 0002_auto_20190716_1213
+> : 1563279706:0;git init
+> : 1563279720:0;vim .gitignore
+> : 1563279776:0;git add .gitignore
+> : 1563279787:0;git commit "add gitignore"
+> : 1563279792:0;git commit -m "add gitignore"
+> : 1563279799:0;git status
+> : 1563279817:0;git add data.txt django_orm manage.py sample_app/
+> : 1563279818:0;ls
+> : 1563279821:0;git status
+> : 1563279843:0;git commit -m "a django app with Employee model"
+> : 1563280312:0;cat sample_app/migrations/0002_auto_20190716_1213.py
+> : 1563280355:0;vim sample_app/migrations/RunPython.py
+> : 1563281287:0;python manage.py makemigrations --empty sample_app\
+> 
+> : 1563281362:0;python manage.py migrate
+> : 1563281977:0;python manage.py makemigration
+> : 1563281979:0;python manage.py makemigrations
+> : 1563281989:0;python manage.py migrate
+> : 1563281995:0;python manage.py makemigrations --empty sample_app\
+> 
+> : 1563282058:0;python manage.py migrate
+> : 1563282221:0;python manage.py shell
+> : 1563282300:0;ssh anjoman@aaiss.ceit.aut.ac.ir -p 50043
+> : 1563282457:0;python manage.py shell
+> : 1563283915:0;git status
+> : 1563283959:0;git rm sample_app/*
+> : 1563283972:0;git status
+> : 1563283980:0;git add sample_app/models.py
+> : 1563283998:0;git commit -m "make fields nullable"
+> : 1563284006:0;git add sample_app/*
+> : 1563284029:0;git commit -m "do data migration"
+> : 1563284082:0;/usr/bin/python3 -m pip install -U pylint --user
+> : 1563284675:0;python manage.py shell
+> : 1563287805:0;0\
+> \
+> apt-cache policy libgtk2.0-0 libgtk-3-0
+> : 1563287810:0;apt-cache policy libgtk2.0-0 libgtk-3-0
+> : 1563288265:0;sudo /sbin/modprobe tun
+> : 1563288278:0;sudo apt install openconnect
+> : 1563288289:0;sudo openconnect us4.cisadd2.com\
+> 
+> : 1563295518:0;sudo vim /etc/resolv.conf
+> : 1563295605:0;sudo openconnect us4.cisadd2.com\
+> 
+> : 1563295901:0;ping 8.8.8.8
+> : 1563295964:0;sudo vim /etc/resolv.conf
+> : 1563295982:0;ping 8.8.8.8
+> : 1563295997:0;sudo vim /etc/resolv.conf
+> : 1563296083:0;ping 8.8.8.8
+> : 1563296110:0;sudo vim /etc/resolv.conf
+> : 1563296148:0;systemd-resolve --status
+> : 1563296269:0;ping 8.8.8.8
+> : 1563296298:0;ping 0.0.0.0
+> : 1563296305:0;ping 8.8.8.8
+> : 1563296456:0;sudo openconnect us4.cisadd2.com\
+> 
+> : 1563296863:0;ping 0.0.0.0
+> : 1563296869:0;ping 8.8.8.8
+> : 1563297056:0;ping 192.168.43.1
+> : 1563297094:0;ping 8.8.8.8
+> : 1563297316:0;route -n
+> : 1563297352:0;ping cafebazaar.com
+> : 1563297358:0;ping cafebazaar.ir
+> : 1563297381:0;ping 192.168.255.1
+> : 1563297415:0;ping 172.20.10.21
+> : 1563297513:0;sudo apt purge openconnect
+> : 1563297529:0;ping 8.8.8.8
+> : 1563297545:0;/sbin/modprobe
+> : 1563297549:0;cat /sbin/modprobe
+> : 1563297564:0;man/sbin/modprobe
+> : 1563297567:0;man /sbin/modprobe
+> : 1563297598:0;man /sbin/modprobe --ignore
+> : 1563297606:0;/sbin/modprobe --ignore
+> : 1563297610:0;/sbin/modprobe -h
+> : 1563297617:0;/sbin/modprobe -c
+> : 1563297629:0;/sbin/modprobe -h
+> : 1563297675:0;/sbin/modprobe -i tun
+> : 1563297677:0;ls
+> : 1563297699:0;sudo /sbin/modprobe -i tun
+> : 1563297700:0;ls
+> : 1563297705:0;ping 8.8.8.8
+> : 1563297737:0;ps -H
+> : 1563297742:0;ps
+> : 1563297746:0;htop
+> : 1563298093:0;ping 8.8.8.8
+> : 1563298153:0;sudo systemctl restart NetworkManager.service
+> : 1563298157:0;ping 8.8.8.8
+> : 1563298299:0;ping 4.4.4.4
+> : 1563298703:0;ping 8.8.8.8
+> : 1563299994:0;cd Desktop
+> : 1563299994:0;ls
+> : 1563299999:0;cd Mojave-gtk-theme-master
+> : 1563300000:0;ls
+> : 1563300035:0;ls ~/.themes
+> : 1563300059:0;ls
+> : 1563300065:0;cd Cupertino-iCons-master
+> : 1563300070:0;ls
+> : 1563300096:0;cp * ~/.icons
+> : 1563300114:0;mkdir ~/.icons
+> : 1563300116:0;cp * ~/.icons
+> : 1563300123:0;cp -r * ~/.icons
+> : 1563300158:0;ls ~/.icons
+> : 1563300178:0;rm -rf ~/.icons
+> : 1563300181:0;mkdir ~/.icons
+> : 1563300188:0;cd ..
+> : 1563300200:0;cp Cupertino-iCons-master ~/.icons
+> : 1563300207:0;cp -r Cupertino-iCons-master ~/.icons
+> : 1563300208:0;ls
+> : 1563300656:0;sudo add-apt-repository ppa:cairo-dock-team/ppa\
+> 
+> : 1563300726:0;sudo apt update
+> : 1563300792:0;sudo apt install cairo-dock cairo-dock-plug-ins
+> : 1563341770:0;cat ~/.zsh_history > ../zshhistory3.txt
+> : 1563341771:0;ls
+> : 1563341775:0;cd ..
+> : 1563342817:0;cd 3rd_day
+> : 1563342819:0;ls
+> : 1563342822:0;cd django_orm
+> : 1563342823:0;ls
+> : 1563342843:0;source ../../myenv/bin/activate
+> : 1563342844:0;ls
+> : 1563342853:0;python manage.py shell
+> : 1563343232:0;pip3 install ipython
+> : 1563343369:0;python manage.py shell
+> : 1563346484:0;python manage.py makemigrateions
+> : 1563346487:0;python manage.py makemigrations
+> : 1563346669:0;python manage.py migrate
+> : 1563346684:0;python manage.py shell
+> : 1563346907:0;python manage.py migrate
+> : 1563347487:0;python manage.py shell
+> : 1563347575:0;python manage.py makemigrations
+> : 1563347724:0;python manage.py makemigrations --empty sample_app\
+> 
+> : 1563347796:0;git status
+> : 1563347843:0;git add models.py
+> : 1563347854:0;git add sample_app/*
+> : 1563347857:0;git status
+> : 1563347950:0;git commit -m "deleting null objects and add managers to detect invalid data"
+> : 1563348704:0;python manage.py migrate
+> : 1563348816:0;python manage.py shell
+> : 1563349043:0;python manage.py migrate
+> : 1563349977:0;git add sample_app/migrations/0006_auto_20190717_0714.py
+> : 1563350014:0;git commit -m 'adding company table'
+> : 1563350305:0;git add sample_app/migrations/0007_auto_20190717_0715.py
+> : 1563350346:0;git commit -m "add company field to Employee and set that"
+> : 1563350356:0;python manage.py
+> : 1563350359:0;python manage.py shell
+> : 1563351026:0;python manage.py migrate
+> : 1563351040:0;python manage.py makemigration
+> : 1563351044:0;python manage.py makemigrations
+> : 1563351120:0;python manage.py migrate
+> : 1563351131:0;python manage.py shell
+> : 1563351546:0;python manage.py makemigrations
+> : 1563351571:0;python manage.py makemigrations --empty sample_app\
+> 
+> : 1563351602:0;python manage.py migrate
+> : 1563351612:0;python manage.py shell
+> : 1563351943:0;python manage.py makemigrations --empty sample_app\
+> 
+> : 1563351985:0;python manage.py migrate
+> : 1563351992:0;python manage.py shell
+> : 1563353368:0;python manage.py migrate sample_app 0007_auto_20190717_0715
+> : 1563353397:0;python manage.py showmigrations
+> : 1563353496:0;python manage.py migrate sample_app 0006_auto_20190717_0714
+> : 1563353552:0;mkdir bad_migrations
+> : 1563353660:0;mv sample_app/migrations/0008_auto_20190717_0811.py sample_app/migrations/0009_auto_20190717_0819.py sample_app/migrations/0010_auto_20190717_0825.py
+> : 1563353688:0;python manage.py showmigrations
+> : 1563353734:0;mv sample_app/migrations/0008_auto_20190717_0811.py bad_migrations
+> : 1563353735:0;ls
+> : 1563353753:0;mv sample_app/migrations/0009_auto_20190717_0819.py bad_migrations
+> : 1563353761:0;mv sample_app/migrations/0010_auto_20190717_0825.py bad_migrations
+> : 1563353764:0;python manage.py showmigrations
+> : 1563353772:0;python manage.py migrate
+> : 1563353786:0;python manage.py shell
+> : 1563355636:0;mv bad_migrations sample_app/migrations
+> : 1563355637:0;ls
+> : 1563355641:0;cd sample_app
+> : 1563355710:0;touch tests.py
+> : 1563356168:0;cario
+> : 1563356186:0;cairo-dock
+> : 1563356994:0;sudo apt install plank
+> : 1563357027:0;plank --version
+> : 1563357032:0;plank
+> : 1563357081:0;sudo plank
+> : 1563357382:0;sudo apt-get install plank\
+> 
+> : 1563357388:0;sudo add-apt-repository ppa:noobslab/macbuntu\
+> 
+> : 1563357407:0;sudo apt-get update\
+> 
+> : 1563357421:0;sudo apt-get install macbuntu-os-plank-theme-lts-v7\
+> 
+> : 1563357456:0;sudo apt-get install macbuntu-os-plank-theme-v1804\
+> 
+> : 1563362235:0;git status
+> : 1563362255:0;git add migrations/0007_auto_20190717_0715.py git add models.py
+> : 1563362275:0;git add migrations/0007_auto_20190717_0715.py models.py
+> : 1563362357:0;git commit -m "complete phase 6"
+> : 1563363168:0;git status
+> : 1563365029:0;python manage.py test sample_app
+> : 1563365035:0;cd ..
+> : 1563365037:0;python manage.py test sample_app
+> : 1563365102:0;python manage.py runserver
+> : 1563365708:0;sudo -u postgres psql
+> : 1563365928:0;python manage.py test sample_app
+> : 1563366117:0;python manage.py shell
+> : 1563366287:0;python manage.py test sample_app.tests
+> : 1563368345:0;sudo apt purge cairo-dock cairo-dock-plug-ins
+> : 1563370560:0;python manage.py shell
+> : 1563370568:0;python manage.py test sample_app.tests
+> : 1563370635:0;python manage.py test
+> : 1563389331:0;curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh | bash\
+> 
+> : 1563389828:0;cd ../..
+> : 1563389859:0;cat ~/.zsh_history zshhistory4.txt
+> : 1563389869:0;cat ~/.zsh_history > zshhistory4.txt
