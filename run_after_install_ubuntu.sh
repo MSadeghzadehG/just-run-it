@@ -7,6 +7,8 @@ sh do_snap_install.sh
 sh git_config.sh
 bash zsh_config.sh
 
+bash make_beautiful.sh 
+
 sudo reboot
 
 
