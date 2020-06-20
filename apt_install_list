@@ -4,11 +4,10 @@ chromium-browser
 zsh
 curl
 vlc 
-vlc-plugin-*\
+vlc-plugin-*
 python3-pip
 virtualenv
 postgresql
 libpq-dev
 vim
 htop
-gnome-tweak-tool
