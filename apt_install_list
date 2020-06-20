@@ -1,0 +1,14 @@
+wget
+git
+chromium-browser
+zsh
+curl
+vlc 
+vlc-plugin-*\
+python3-pip
+virtualenv
+postgresql
+libpq-dev
+vim
+htop
+
