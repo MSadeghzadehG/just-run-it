@@ -1,6 +1,8 @@
 # just-run-it
 Configurable script to make setup apps easy after install ubuntu
 
+![result](https://github.com/MSadeghzadehG/just-run-it/blob/master/img/result.png?raw=true)
+
 ## How to use?
 After Installing ubuntu:
 #### 1. Fork 
@@ -22,13 +24,19 @@ All Done! enjoy =))
 ### Apply make_beautiful changes on tweaks
 - change the 'Appearance' -> 'Themes' -> 'Applications','Icons':
 
-![themes](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![themes](https://github.com/MSadeghzadehG/just-run-it/blob/master/img/themes.png?raw=true)
 
 - change the 'Fonts':
 
-![fonts](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![fonts](https://github.com/MSadeghzadehG/just-run-it/blob/master/img/fonts.png?raw=true)
 
 - change the 'Window Titlebar' -> 'Placement':
 
-![placement](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![placement](https://github.com/MSadeghzadehG/just-run-it/blob/master/img/titlebar.png?raw=true)
 
+
+### TODO:
+- [ ] Add docker setup for ubuntu 20.04 LTS
+- [ ] Add vim configurations.
+- [ ] Update zsh confiturations.
+- [ ] Add [quick-k8s](https://github.com/MSadeghzadehG/quick-k8s) to zsh
