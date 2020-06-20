@@ -9,6 +9,8 @@ bash zsh_config.sh
 
 bash make_beautiful.sh 
 
+bash ssh_key.sh
+
 sudo reboot
 
 
