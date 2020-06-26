@@ -34,6 +34,9 @@ All Done! enjoy =))
 
 ![placement](https://github.com/MSadeghzadehG/just-run-it/blob/master/img/titlebar.png?raw=true)
 
+- change the vim:
+
+![vim](https://github.com/NothingRealm/just-run-it/blob/master/img/vim.png?raw=true)
 
 ### TODO:
 - [ ] Add docker setup for ubuntu 20.04 LTS
