@@ -11,6 +11,8 @@ bash make_beautiful.sh
 
 bash ssh_key.sh
 
+bash config_vim.sh
+
 sudo reboot
 
 
